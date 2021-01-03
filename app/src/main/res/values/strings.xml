@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">RestaurantProject</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">(XXX) XXX-XXXX</string>
+    <string name="description">Description</string>
+    <string name="menu_items">Menu Items</string>
+    <string name="save">Save!</string>
+    <string name="picture_of_the_restaurant">Picture of the restaurant</string>
+    <string name="edit">Edit</string>
+    <string name="phone_example">(716) 550-9726</string>
 </resources>

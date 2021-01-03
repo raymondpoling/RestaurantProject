@@ -1,5 +1,9 @@
 package org.mousehole.restaurantproject.model;
 
+import android.content.Context;
+
+import org.mousehole.restaurantproject.R;
+
 import java.io.Serializable;
 
 public class RestaurantData implements Serializable {
@@ -56,6 +60,14 @@ public class RestaurantData implements Serializable {
 
     public void setMenu(String menu) {
         this.menu = menu;
+    }
+
+    public static RestaurantData getDefaultRestaurantData(Context context) {
+        return new RestaurantData(context.getResources().getString(R.string.name),
+                context.getResources().getString(R.string.address),
+                context.getResources().getString(R.string.phone),
+                context.getResources().getString(R.string.description),
+                context.getResources().getString(R.string.menu_items));
     }
 }
 
